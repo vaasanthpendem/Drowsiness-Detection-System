@@ -38,11 +38,9 @@ See `esp32_drowsiness.ino` .
 See `drowsiness_host.py` in GitHub repository.
 
 **EAR Formula:**
-```
         ||p2-p6|| + ||p3-p5||
 EAR =  ─────────────────────────
               2 × ||p1-p4||
-```
 
 Where p1–p6 are the 6 eye landmark points from dlib's 68-point model.
 
@@ -77,9 +75,9 @@ SIMULATED: DRIVER ALERT
 - False positive rate: minimal under adequate lighting
 
 ---
----
 
-## 11. Video of the Demo (Prototype)
+
+## 6. Video of the Demo (Prototype)
 
 Video demonstrating:
 1. Python script running on laptop detecting open/closed eyes via webcam
@@ -90,7 +88,7 @@ Video demonstrating:
 
 ---
 
-## 12. References
+## 7. References
 
 1. Soukupová, T., & Čech, J. (2016). *Real-time eye blink detection using facial landmarks*. In 21st Computer Vision Winter Workshop (CVWW).
 
