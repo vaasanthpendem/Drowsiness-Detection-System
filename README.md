@@ -20,27 +20,7 @@ Driver drowsiness is a major cause of road accidents worldwide. According to the
 
 ## 3. Architecture of the solution
 
-```
-┌────────────────────────────────────────────────────────┐
-│                    LAPTOP (HOST)                        │
-│  ┌──────────┐    ┌───────────────┐    ┌─────────────┐  │
-│  │  Webcam  │───▶│ OpenCV/dlib   │───▶│ PySerial TX │  │
-│  └──────────┘    │ EAR Algorithm │    └──────┬──────┘  │
-│                  └───────────────┘           │         │
-└─────────────────────────────────────────────┼─────────┘
-                                    USB-Serial │ 'D'/'A'/'W'
-┌─────────────────────────────────────────────┼─────────┐
-│                   ESP32 (EDGE)              │         │
-│                               ┌────────────▼───────┐  │
-│                               │  Serial Handler    │  │
-│                               │  (GPIO Controller) │  │
-│                               └─┬──────┬──────┬───┘  │
-│                          GPIO2  │  GPIO4│  GPIO15     │
-│                       ┌────────▼┐┌─────▼┐ ┌──▼─────┐ │
-│                       │Green LED││Red LED│ │ Buzzer │ │
-│                       └─────────┘└───────┘ └────────┘ │
-└────────────────────────────────────────────────────────┘
-```
+<img width="843" height="622" alt="image" src="https://github.com/user-attachments/assets/d4875654-3556-4810-b096-a1a0cc785c34" />
 
 ```
 
