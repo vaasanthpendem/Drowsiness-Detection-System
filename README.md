@@ -22,7 +22,7 @@ Driver drowsiness is a major cause of road accidents worldwide. According to the
 
 <img width="843" height="622" alt="image" src="https://github.com/user-attachments/assets/d4875654-3556-4810-b096-a1a0cc785c34" />
 
-```
+
 
 ## 4. Code for the Solution
 
