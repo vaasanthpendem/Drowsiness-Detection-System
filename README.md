@@ -38,10 +38,11 @@ See `esp32_drowsiness.ino` .
 See `drowsiness_host.py` in GitHub repository.
 
 **EAR Formula:**
-
+```
         ||p2-p6|| + ||p3-p5||
 EAR =  ─────────────────────────
               2 × ||p1-p4||
+```
 
 Where p1–p6 are the 6 eye landmark points from dlib's 68-point model.
 
