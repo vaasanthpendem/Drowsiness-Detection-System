@@ -86,7 +86,7 @@ Video demonstrating:
 2. Serial commands being sent to ESP32
 3. Green LED → Red LED + Buzzer transition on drowsiness detection
 
-**Video Link:** *(Upload to YouTube/Google Drive and paste link here)*
+**Video Link:** https://drive.google.com/file/d/1n0hNS0R_YoxeVFXQ7voELo-CGKAu_B7I/view?usp=drive_link
 
 ---
 
