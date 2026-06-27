@@ -4,7 +4,7 @@
 
 ## 1. Problem Statement
 
-Driver drowsiness is a major cause of road accidents worldwide. According to the National Highway Traffic Safety Administration (NHTSA), drowsy driving accounts for approximately 100,000 police-reported crashes annually. Existing solutions are either too expensive (camera-integrated ECUs), require additional hardware purchase, or have high latency. This project proposes a hybrid edge-host architecture where a laptop webcam performs real-time Eye Aspect Ratio (EAR) based drowsiness detection and alerts the driver via an ESP32 microcontroller controlling LEDs and a buzzer — using zero additional hardware cost beyond what a developer already owns.
+Driver drowsiness is a major cause of road accidents worldwide. According to NHTSA, drowsy driving accounts for approximately 100,000 police-reported crashes annually. This project implements a prototype Drowsiness Detection System using Eye Aspect Ratio (EAR) algorithm on a laptop webcam as the processing host, communicating over UART-USB serial to an ESP32 microcontroller which drives LED and buzzer alerts. The objective is to demonstrate the core detection and alerting pipeline in a low-cost developer setup, with the architecture designed to scale toward a fully embedded solution using a Raspberry Pi or ESP32-CAM in future iterations.
 
 ---
 
